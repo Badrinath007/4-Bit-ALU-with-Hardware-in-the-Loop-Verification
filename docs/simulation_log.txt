@@ -1,0 +1,10 @@
+# Simulation Log
+
+# Starting ALU Verification...
+# ADD Pass: 5+3=8
+# SUB Pass: 5-3=2
+# AND Pass: 5&3=1
+# Verification Complete.
+# ** Note: $finish    : alu4_tb.v(39)
+#    Time: 60 ns  Iteration: 0  Instance: /alu4_tb
+# End time: 10:53:46 on Apr 02,2026, Elapsed time: 0:00:01
