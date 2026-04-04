@@ -4,7 +4,7 @@
 This project involves the design and implementation of a synthesizable **4-Bit Arithmetic Logic Unit (ALU)** targeting a **Intel Cyclone IV FPGA**. Beyond basic logic design, this project focuses on solving real-world hardware constraints, specifically managing limited I/O resources and interfacing with active-low peripheral circuitry.
 
 ## Key Features
-* **Supported Operations:** Implemented 6 core functions: `ADD`, `SUB`, `AND`, `OR`, `XOR`, and `NOT`.
+* **Supported Operations:** Implemented 5 core functions: `ADD`, `SUB`, `AND`, `OR`, `XOR`.
 * **Synchronous Heartbeat:** Integrated a 25-bit synchronous counter to drive a "beat" LED, providing a visual confirmation of the 50MHz onboard clock stability.
 * **Active-Low Interfacing:** Designed a logical-to-physical inversion layer in RTL to ensure compatibility with the development board's active-low LED architecture.
 * **Resource Management:** Successfully mapped 6+ internal signals to only 4 available physical LEDs using a prioritized signal mapping strategy.
@@ -44,3 +44,11 @@ The design was verified through a three-tier verification process to ensure indu
 2. Compile the design to generate the `.sof` file.
 3. Use the **Programmer** tool to load the design onto the Cyclone IV board via JTAG.
 4. Alternatively, run the testbench in **ModelSim** using `vlog` and `vsim` to view functional waveforms.
+
+---
+## FPGA Board for Demo
+
+![FPGA_board](https://github.com/user-attachments/assets/fc0a074e-5b13-4b4f-a55d-291e679cd314)
+
+---
+
