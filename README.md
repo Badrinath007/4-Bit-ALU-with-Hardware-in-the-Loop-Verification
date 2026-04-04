@@ -48,7 +48,7 @@ The design was verified through a three-tier verification process to ensure indu
 ---
 ## FPGA Board for Demo
 
-![FPGA_board](https://github.com/user-attachments/assets/fc0a074e-5b13-4b4f-a55d-291e679cd314)
+![FPGA_board](https://github.com/user-attachments/assets/829c88da-af05-4b1b-a7b6-d4c90e93327a)
 
 ---
 
